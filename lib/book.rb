@@ -14,6 +14,6 @@ class Book
   end
 
   def publication_year
-    DateTime.parse(@publication_date).year
+    DateTime.parse(@publication_date).year.to_s
   end
 end
